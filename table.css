@@ -1,0 +1,36 @@
+div.example {
+ 
+  padding: 2px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 60px;
+}
+
+@media screen and (min-width: 601px) {
+  div.example {
+     font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  div.example {
+    font-size: 15px;
+   
+  }
+}
+.table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 150%;
+    border: 1px solid #ddd;
+  
+}
+
+th, td {
+    text-align: left;
+    padding: 1px;
+}
+
+tr{
+  background-color:#a3a3c2;
+}
